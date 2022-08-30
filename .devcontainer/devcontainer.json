@@ -7,8 +7,7 @@
     "stylelint.vscode-stylelint"
     // Additional Extensions Here
   ],
-  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
-  "postStartCommand": "npm start"
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
