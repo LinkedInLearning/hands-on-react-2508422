@@ -3,7 +3,6 @@
     "GitHub.github-vscode-theme",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "ritwickdey.LiveServer",
     "stylelint.vscode-stylelint"
     // Additional Extensions Here
   ],
