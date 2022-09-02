@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default () => {
+export default ({ onChoice }) => {
   const [cast, setCast] = useState([]);
 
   async function fetchCast() {
@@ -21,7 +21,9 @@ export default () => {
     }}>
       {
         cast.map(member => (
-          <a key={member.id} data-tooltip={member.name}>
+          <a style={{cursor: 'pointer'}} onClick={() => {
+            onChoice(member);
+          }} key={member.id} data-tooltip={member.name}>
             <img src={`images/${member.slug}_tn.svg`} alt={member.name} />
           </a>
         ))
