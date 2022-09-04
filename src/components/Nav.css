@@ -1,0 +1,27 @@
+nav a {
+  font-family: 'Bungee', sans-serif;
+}
+
+nav ul li, nav ul li a {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+nav details[role=list] {
+  text-transform: initial;
+}
+
+nav summary+ul li {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+nav details li a {
+  font-family: inherit;
+  font-size: .7em;;
+}
+
+details[role=list] summary+ul li a:hover {
+  color: var(--primary);
+  font-weight: 700;
+}
