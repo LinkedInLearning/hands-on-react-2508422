@@ -3,11 +3,11 @@
     "GitHub.github-vscode-theme",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "ritwickdey.LiveServer",
     "stylelint.vscode-stylelint"
     // Additional Extensions Here
   ],
-  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+  "postStartCommand": "npm start" //Start the app
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
