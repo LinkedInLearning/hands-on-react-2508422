@@ -1,3 +1,5 @@
+import "./Nav.css";
+
 export default ({ cast, onChoice }) => {
   return (
     <nav className="container">

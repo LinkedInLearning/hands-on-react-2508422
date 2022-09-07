@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ListCast from './components/ListCast';
 import Modals from './components/Modals';
 import Nav from './components/Nav';
+import "./App.css";
 
 function App() {
   const [cast, setCast] = useState([]);
