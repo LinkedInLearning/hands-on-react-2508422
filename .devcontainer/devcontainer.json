@@ -7,7 +7,10 @@
     // Additional Extensions Here
   ],
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
-  "postStartCommand": "npm start && git pull --all" //Start the app
+  "postAttachCommand": {
+    "server": "npm start",
+    "gitpull": "git pull --all"
+  }
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
