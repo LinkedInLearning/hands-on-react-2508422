@@ -3,3 +3,6 @@ node_modules
 .tmp
 npm-debug.log
 dist
+
+# React Component Preview
+previewConfig.json
