@@ -14,9 +14,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@picocss/pico": "^1.5.7",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.1",
+    "sass": "^1.58.3",
     "vite": "^3.0.7"
   }
 }
