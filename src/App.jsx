@@ -5,31 +5,35 @@ import Nav from './components/Nav';
 import "./App.scss";
 
 function App() {
-  const [cast, setCast] = useState([]);
-  let [memberInfo, setMemberInfo] = useState(null);
-
-  async function fetchCast() {
-    const response = await fetch('cast.json');
-    setCast(await response.json());
-  }
-
-  useEffect(() => {
-    fetchCast();
-  });
+  const username="suraj"
+  // can use the variable and then use in code inside h1 using the syntax {username}
 
   return (
-    <>
-      <Nav cast={cast} onChoice={(info) => { setMemberInfo(info) }} />
-      <div className="container">
-        <hgroup>
-          <img src="images/group.svg" alt="StarGazers Group" />
-          <h1>Meet the Stargazers</h1>
-          <p>Members of an <b>intergalactic alliance</b> paving the way for peace and benevolence among all species. They are known for their enthusiasm for science, for their love of fun, and their dedication to education.</p>
-          <ListCast cast={cast} onChoice={(info) => { setMemberInfo(info) }} />
-          {memberInfo && <Modals member={memberInfo} handleChange={(info) => { setMemberInfo(cast[info]) }} handleClose={() => { setMemberInfo(null) }} />}
-        </hgroup>
-      </div>
-    </>
+    <div className="container">
+    <hgroup>
+      <h1>Meet the StarGazers <i>{username}</i> </h1>
+      <p>Members of an <b>intergalactic alliance</b> paving the way for peace and benevolence among all species. They are known for their enthusiasm for science, for their love of fun, and their dedication to education.</p>
+    </hgroup>
+      <button className='outline' onClick={()=>alert("hello")} >Click me</button>
+    </div>
   )
 }
 export default App
+
+// Notes
+
+/* 
+==> jsx stands for javascript  syntax extension
+==> in jsx img tage must have closing otherwise it will give error
+==> return must use () 
+==> All attributes in jsx is camel case
+==> you cant use the keywords in jsx and for class is used as keyword instead of that
+    we use className
+
+==> you can write css inside the jsx also using object way
+==> you can also write the javascript function inside jsx
+    
+
+
+
+*/
