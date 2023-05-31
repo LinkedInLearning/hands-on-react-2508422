@@ -1,5 +1,5 @@
 {
-  "name": "hands-on-react",
+  "name": "c",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -18,5 +18,9 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.1",
     "vite": "^3.0.7"
-  }
+  },
+  "description": "This is the repository for the LinkedIn Learning course Hands-On Introduction: React. The full course is available from [LinkedIn Learning][lil-course-url].",
+  "main": "vite.config.js",
+  "author": "Moises",
+  "license": "ISC"
 }
