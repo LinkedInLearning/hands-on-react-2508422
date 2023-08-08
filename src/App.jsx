@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ListCast from './components/ListCast';
 import Modals from './components/Modals';
 import Nav from './components/Nav';
+import "./App.scss";
 
 function NextMember(cast, member) {
   var index = member.id + 1;
@@ -19,7 +20,7 @@ function PreviousMember(cast, member) {
   return cast[index];
 }
 
-function GetMemberIndex(cast, index){
+function GetMemberIndex(cast, index) {
   if (index < 0) return cast.length - 1;
   if (index >= cast.length) return 0;
   return index;

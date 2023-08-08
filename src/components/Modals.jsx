@@ -19,14 +19,19 @@ export default ({ member, upperId, handleClose, handleChange, previousCast, next
             <hgroup>
               <h1>{member.name}</h1>
               <p>{member.bio}</p>
-              <hgroup>
-                <a className="outline " disabled={member.id === 0} href="#" role="button"
+              <hgroup style={{
+                display: "flex",
+                gap: '1rem',
+                marginTop: '1rem',
+                justifyContent: 'space-between'
+              }}>
+                <a className="outline " style={{ padding: "0" }} disabled={member.id === 0} href="#" role="button"
                   onClick={() => handleChange(Number(member.id) - 1)}>
-                  previous
+                  <span style={{ padding: "12.5px" }} className="material-symbols-outlined">arrow_back</span>
                 </a>
-                <a className="outline" href="#" role="button" disabled={member.id === upperId}
+                <a className="outline" style={{ padding: "0" }} href="#" role="button" disabled={member.id === upperId}
                   onClick={() => handleChange(Number(member.id) + 1)}>
-                  next
+                  <span style={{ padding: "12.5px" }} className="material-symbols-outlined">arrow_forward</span>
                 </a>
               </hgroup>
             </hgroup>
@@ -34,21 +39,26 @@ export default ({ member, upperId, handleClose, handleChange, previousCast, next
         </hgroup>
         <footer>
           <div style={{
-            display: "flex"
+            display: "flex",
+            gap: '1rem',
+            marginTop: '1rem',
+            justifyContent: 'space-between'
           }} >
             <a href="#prev"
               aria-label="previous"
               role="button"
               data-target="modal-member"
+              style={{ padding: "0" }}
               onClick={() => handleChange(Number(member.id) - 1)}>
-              previous
+              <span style={{ padding: "12.5px" }} className="material-symbols-outlined">arrow_back</span>
             </a>
             <a href="#next"
               aria-label="next"
               role="button"
               data-target="modal-member"
+              style={{ padding: "0" }}
               onClick={() => handleChange(Number(member.id) + 1)}>
-              next
+              <span style={{ padding: "12.5px" }} className="material-symbols-outlined">arrow_forward</span>
             </a>
           </div>
         </footer>
