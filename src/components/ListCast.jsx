@@ -21,7 +21,9 @@ export default () => {
     }}>
       {
         cast.map(member => (
-          <img src={`images/${member.slug}_tn.svg`} alt="" />
+          <a key={member.id} data-tooltip={member.name}>
+            <img src={`images/${member.slug}_tn.svg`} alt={member.name} />
+          </a>
         ))
       }
       </div>

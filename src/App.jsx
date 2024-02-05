@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import { render } from 'react-dom';
 import Welcome from './components/Welcome'
 import Support from './components/Support';
+import ListCast from './components/ListCast';
+
 //this is a component
 // class Welcome extends React.Component{
 //   constructor(props) {
@@ -29,6 +31,7 @@ function App() {
           <Welcome name="StarAliens" />
           <p>Members of an <b>intergalactic alliance</b><br />
             paving the way for peace and benevolence among all species. They are known for their enthusiasm for science, for their love of fun, and their dedication to education.</p>
+          <ListCast />
           <Support />
         </hgroup>
       </article>
