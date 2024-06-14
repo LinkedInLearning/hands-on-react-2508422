@@ -1,0 +1,1 @@
+nav ul li,nav ul li a{padding-top:.5em;padding-bottom:.5em}nav summary+ul li{padding-top:0!important;padding-bottom:0!important}nav details li a{font-size:.7em}details summary+ul li a:hover{color:var(--primary);font-weight:700}:root{--primary: pink !important}h1,h2,h3,h4,h5,h6,b{color:var(--primary)}

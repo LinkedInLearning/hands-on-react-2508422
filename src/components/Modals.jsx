@@ -1,41 +1,43 @@
 export default ({ member, handleClose, handleChange }) => {
   return (
-    <dialog id="modal-member" open>
+    <dialog open>
       <article>
-        <a href="#close"
+        <button
+          style={{ marginTop: "1px" }}
           aria-label="Close"
-          className="close"
-          data-target="modal-member"
+          rel="prev"
           onClick={handleClose}
-        ></a>
-        <hgroup>
-          <div style={{
-            display: "flex",
-            gap: '1rem'
-          }}>
-            <img style={{ width: '200px' }}
-              src={`images/${member.slug}.svg`}
-              alt={member.name} />
+        ></button>
+        <div style={{ display: "flex", gap: "1rem" }}>
+          <img
+            style={{ width: "200px" }}
+            src={`images/${member.slug}.svg`}
+            alt={member.name}
+          />
+          <hgroup>
+            <h1>{member.name}</h1>
+            <p>{member.bio}</p>
             <hgroup>
-              <h1>{member.name}</h1>
-              <p>{member.bio}</p>
-              <hgroup style={{
-                display: "flex",
-                gap: "1rem",
-                marginTop: "1rem",
-                justifyContent: "space-between"
-              }}>
-                <a className="outline" href="#" role="button"
-                  onClick={() => { handleChange(Number(member.id) - 1) }}
-                ><span className="material-symbols-outlined">arrow_back</span></a>
-                <a className="outline" href="#" role="button"
-                  onClick={() => { handleChange(Number(member.id) + 1) }}
-                ><span className="material-symbols-outlined">arrow_forward</span></a>
-              </hgroup>
+              <button
+                className="outline"
+                onClick={() => {
+                  handleChange(member.id - 1);
+                }}
+              >
+                Prev Char
+              </button>
+              <button
+                style={{ color: "white", marginLeft: "1rem" }}
+                onClick={() => {
+                  handleChange(member.id + 1);
+                }}
+              >
+                Next Char
+              </button>
             </hgroup>
-          </div>
-        </hgroup>
+          </hgroup>
+        </div>
       </article>
     </dialog>
-  )
-}
+  );
+};
