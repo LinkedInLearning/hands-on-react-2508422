@@ -1,0 +1,306 @@
+[
+  {
+    "id": 0,
+    "name": "Aneirin",
+    "slug": "aneirin",
+    "bio": "Aneirin is the foremost expert of cold climates in planetoids universe-wide, with a particular inquisitiveness in areas colder than -300 F / - 184.4444444 C (hence the profound personal interest in knitting mittens). Having travelled extensively, Aneirin enjoys collecting, receiving, and sending distinctive postcards from all corners of the macrocosm.",
+    "origin": "Zacon II",
+    "eyes": 2,
+    "hobby": "knitting",
+    "ambulation": "walking, skipping",
+    "job_title": "Cold Climate Analyst",
+    "dream_job_title": "Private Island Caretaker",
+    "singing_voice": "alto",
+    "favorites": {
+      "food": "asparagus",
+      "music_genre": "hip hop, classic rock",
+      "book": "The Call of the Wild by Jack London",
+      "footwear": "cowboy boots"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Celestia Dristi",
+    "slug": "celestia-dristi",
+    "bio": "As a mobility engineer, Celestia Dristi helps individuals and companies to improve personal and  professional agility and growth in technology and systems. An expert in translating and implementing  needs into functionality, Celestia Dristi has a unique proclivity for solving problems and helping to   avoid future issues.",
+    "origin": "Krachonk",
+    "eyes": 1,
+    "hobby": "landscaping",
+    "ambulation": "rolling",
+    "job_title": "Mobility Engineer",
+    "dream_job_title": "Mime",
+    "singing_voice": "soprano",
+    "favorites": {
+      "food": "ice cream cake",
+      "music_genre": "reggae",
+      "book": "A Tale of Two Cities by Charles Dickens",
+      "footwear": "n/a"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Charmaine",
+    "slug": "charmaine",
+    "bio": "Charmaine loves fossils from every society and planet, and helping to piece together the stories   they tell of an earlier time. Once completing university studies in paleontology with a minor in  swimming arts, Charmaine immediately transitioned to working on the now-famous Dig of Pleoria.",
+    "origin": "Graykor 5",
+    "eyes": 2,
+    "hobby": "calligraphy",
+    "ambulation": "swimming, walking",
+    "job_title": "Paleontologist",
+    "dream_job_title": "Olympian Water Poloist",
+    "singing_voice": "tenor",
+    "favorites": {
+      "food": "chocolate-covered crickets",
+      "music_genre": "jazz",
+      "book": "Half of a Yellow Sun by Chimamanda Ngozi Adichie",
+      "footwear": "flipper covers"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Emmyloo, \"Em\"",
+    "slug": "emmyloo-em",
+    "bio": "If you look up “lexicography” in the dictionary, you will see a photo of Emmyloo. She claims that  her devotion to lexicography began as early as two years old, when she spoke her first full sentence.   Fluent in 94 languages, Emmyloo helps in analyzing relationships among words and the nuances of their   meanings and relationships to other words.",
+    "origin": "Maedora",
+    "eyes": 2,
+    "hobby": "scientific glassblowing",
+    "ambulation": "rolling",
+    "job_title": "Interplanetary Theoretical Lexicographer",
+    "dream_job_title": "Interplanetary Theoretical Lexicographer",
+    "singing_voice": "soprano",
+    "favorites": {
+      "food": "avocado toast",
+      "music_genre": "baroque, classical, kizomba",
+      "book": "A Brief History of Time by Stephen Hawking",
+      "footwear": "n/a"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Gill",
+    "slug": "gill",
+    "bio": "Gill carries on generations of tradition in his family as a hydrologist specializing in  underground reservoirs of aquatic-based planetoids. Of note is his revolutionary studies in the   adaptation and accumulation of life in estuaries and cenotes. He volunteers as an instructor in   advanced swimming and walking to young Amphibians.",
+    "origin": "Amphibia",
+    "eyes": 2,
+    "hobby": "aquascaping",
+    "ambulation": "swimming, walking",
+    "job_title": "Senior Hydrologist",
+    "dream_job_title": "Senior Free-floater",
+    "singing_voice": "bass",
+    "favorites": {
+      "food": "crawfish étouffée",
+      "music_genre": "punk rock",
+      "book": "Where The Crawdads Sing by Delia Owens",
+      "footwear": "flipper covers, none"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Ichabod",
+    "slug": "ichabod",
+    "bio": "Operations supervisor Ichabod is unwavering in adherence to the perfection of order and function.  Using inborn impassiveness to distracting influences, Ichabod has led several teams to operational  distinction with the advantage of being able to successfully teach precise hoverboard maneuverability.",
+    "origin": "Krachonk",
+    "eyes": 3,
+    "hobby": "piano",
+    "ambulation": "hoverboard",
+    "job_title": "Operations Supervisor",
+    "dream_job_title": "Senior Free-floater",
+    "singing_voice": "falsetto",
+    "favorites": {
+      "food": "squeeze yogurt",
+      "music_genre": "blues, electronica",
+      "book": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones by James Clear",
+      "footwear": "vegan sheepskin boots"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Laverne",
+    "slug": "laverne",
+    "bio": "Laverne holds a degree in theoretical physics from Quantumnus University. Having interned for the  great theoretical physicist, Bob, Laverne pursued a natural aptitude in understanding relationships   among dissimilar measurable quantities to become the theoretical physics coordinator at Quantumnus U.",
+    "origin": "Isronch Major",
+    "eyes": 2,
+    "hobby": "down-hill skiing",
+    "ambulation": "swimming, walking",
+    "job_title": "Theoretical Physics Coordinator",
+    "dream_job_title": "Pilates Instructor",
+    "singing_voice": "alto",
+    "favorites": {
+      "food": "s'mores",
+      "music_genre": "bluegrass",
+      "book": "Becoming by Michelle Obama",
+      "footwear": "none"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Mindigo, 'Mindigogo'",
+    "slug": "mindigo",
+    "bio": "Transportation Technologist Mindigo earned the nickname “MindiGoGo” because of her tireless work   in advanced travel and commodity conveyance. After earning a degree in transportation from  Amethystopia’s premiere technical college, Mindigo quickly rolled up through company ranks from cargo   hauler to conveyance savant. She is recipient of the coveted Presidential Medal of Moving Stuff.",
+    "origin": "Amethystopia",
+    "eyes": 2,
+    "hobby": "vintage camper restoration",
+    "ambulation": "roller skating",
+    "job_title": "Transportation Technologist",
+    "dream_job_title": "Laser Tag Referee",
+    "singing_voice": "alto",
+    "favorites": {
+      "food": "cauliflower casserole",
+      "music_genre": "disco",
+      "book": "Nomadland by Jessica Bruder",
+      "footwear": "roller skates"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nalda",
+    "slug": "nalda",
+    "bio": "Autodidact Nalda began work as a mind reader and universal translator in 2288 when founding the  non-profit, Interplanetary Understanders and Lie Detectors, LLC (IULD). Through IULD, Nalda has   successfully helped several formerly feuding planetary governments to pause, recognize their  similarities, and eventually understand what the other was actually saying, assisting in achieve  lasting peace and collaboration.",
+    "origin": "Isronch Minor",
+    "eyes": 2,
+    "hobby": "pyrography",
+    "ambulation": "walking, tip-toeing",
+    "job_title": "Mind Reader and Universal Translator",
+    "dream_job_title": "Poet",
+    "singing_voice": "alto",
+    "favorites": {
+      "food": "jackfruit fritters",
+      "music_genre": "punk rock, 90s pop",
+      "book": "The Housekeeper and the Professor by Yoko Ogawa",
+      "footwear": "fluffy slippers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Narf the Fourth",
+    "slug": "narf-the-fourth",
+    "bio": "Narf the Fourth (known to friends as ‘Norf’) oversees the manufacturing of astronomic spaceship  accessories at Saucer & Rocket, Inc. Norf keeps an eye on all aspects of production quality, including  managing several lower quality assurance specialists. Interests include jet-pack racing, bodybuilding,  and volunteer baseball coach. Friends tell us that it’s not summer if you don't hear Norf yelling ”keep   your eye on the ball!\"",
+    "origin": "Krachonk",
+    "eyes": 1,
+    "hobby": "gardening",
+    "ambulation": "walking, jetpack",
+    "job_title": "Quality Assurance Specialist",
+    "dream_job_title": "Hand Model",
+    "singing_voice": "baritone",
+    "favorites": {
+      "food": "calzones",
+      "music_genre": "classic country",
+      "book": "The Adventures of Tom Sawyer by Mark Twain",
+      "footwear": "clogs, boots"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Portman",
+    "slug": "portman",
+    "bio": "No one loves animals, critters, varmints, and beasties as much as Dr. Portman, whether they are  wild or a beloved pet. Leading a crew of superterrestrial veterinarians throughout the galaxy, Dr.  Portman has discovered many antidotes for animal illnesses on a planetoid that can also be used   successfully on other planetoids, and is working to expand the cross-distribution of these treatments   and cures throughout the universe.",
+    "origin": "Proboscisk",
+    "eyes": 2,
+    "hobby": "juggling",
+    "ambulation": "walking",
+    "job_title": "Superterrestrial Veterinarian",
+    "dream_job_title": "Superterrestrial Veterinarian Professor",
+    "singing_voice": "baritone and falsetto",
+    "favorites": {
+      "food": "lemon-berry savarin",
+      "music_genre": "j-pop",
+      "book": "The Velveteen Rabbit by Margery Williams and William Nicholson (illustrator)",
+      "footwear": "rubber rain boots"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Seymour",
+    "slug": "seymour",
+    "bio": "“If it isn't counted, it doesn't count!\"™ is the mantra Seymour originated and propagated in the   colossal and growing industry of inventory control. Now trademarked as the slogan for Seymour's   company, Totaling, it serves as reassurance of the company's mission and meaning for potential and  current clients. Counting things is pretty much all Seymour does, other than recreational mountain  climbing.",
+    "origin": "Pepinos IV",
+    "eyes": 2,
+    "hobby": "dancing",
+    "ambulation": "rolling",
+    "job_title": "Inventory Control Manager",
+    "dream_job_title": "Hand Model",
+    "singing_voice": "bass",
+    "favorites": {
+      "food": "dilly beans",
+      "music_genre": "punk rock",
+      "book": "Greenlights by Matthew McConaughey",
+      "footwear": "n/a"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Tomolor",
+    "slug": "tomolor",
+    "bio": "As a professional computer systems analyst, Tomolor has made history in adapting systems for   countless organizations, increasing their overall efficiency by an average of 65%. An active member of  the Beinghood of Bookery, Tomolor has authored several children’s books that explain how to flourish in   their respective areas of interest so that they can most efficiently metamorphose into a career they  love.",
+    "origin": "Isronch Major",
+    "eyes": 2,
+    "hobby": "weightlifting",
+    "ambulation": "walking",
+    "job_title": "Computer Systems Analyst",
+    "dream_job_title": "Children’s Book Author",
+    "singing_voice": "baritone",
+    "favorites": {
+      "food": "baked potato",
+      "music_genre": "kizomba",
+      "book": "Encyclopedia of Modern Bodybuilding by Arnold Schwarzenegger",
+      "footwear": "vegan sheepskin boots"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Trisaphron",
+    "slug": "trisaphron",
+    "bio": "Trisaphron earned a masters degree in practical operations from Omerania University after  completing a bachelors of science in impractical mathematics. With a keen ability to watch and  understand the nuances of cooperation among production robots, Trisaphron never hesitates to jump in  and lend a hand or two or three to educate and improve procedures.",
+    "origin": "Hexapoda Minor",
+    "eyes": 3,
+    "hobby": "knitting, weaving",
+    "ambulation": "walking, running",
+    "job_title": "Executive Director, Operations",
+    "dream_job_title": "Mountain Climber",
+    "singing_voice": "tenor",
+    "favorites": {
+      "food": "tom ka gai",
+      "music_genre": "classic rock",
+      "book": "I Love You to the Moon and Back by Amelia Hepworth and Tim Warnes (illustrator)",
+      "footwear": "none"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Two",
+    "slug": "two",
+    "bio": "With growing interest by organizations in expanding their business on multiple planets, Two finds  that it is increasingly critical to focus on sustainability. As Two describes it, we can’t expect any   business to be viable long-term if a planet and its beings aren’t well cared for. Currently stationed   on Earth, Two enjoys collecting and studying lithium batteries.",
+    "origin": "Strogarus",
+    "eyes": 2,
+    "hobby": "trampolining",
+    "ambulation": "ice skating, walking",
+    "job_title": "Sustainability Strategist",
+    "dream_job_title": "Professional Traveler",
+    "singing_voice": "tenor",
+    "favorites": {
+      "food": "scallions",
+      "music_genre": "classical",
+      "book": "Rebuilding Earth: Designing Ecoconscious Habitats for Humans by Teresa Coady",
+      "footwear": "socks"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Violette",
+    "slug": "violette",
+    "bio": "Violette holds a doctorate degree in Planetary Behaviorism from Fouraluy University. She has been  fascinated in researching the behavior of sentient beings as long as she can remember. She feels her  experience in animal husbandry growing up on her family farm gave her a unique perspective in and   appreciation for all life that drives and complements her current work as a behaviorist. She loves  ballet, classic disco, and spending time with her 17 Earth chickens.",
+    "origin": "Amethystopia",
+    "eyes": 2,
+    "hobby": "dancing",
+    "ambulation": "walking, jumping",
+    "job_title": "Planetary Behaviorist",
+    "dream_job_title": "Principle Disco Dancer for the Amethystopia Ballet",
+    "singing_voice": "mezzo-soprano",
+    "favorites": {
+      "food": "plum pudding",
+      "music_genre": "disco",
+      "book": "The World Needs More Purple People by Kristen Bell and Benjamin Hart",
+      "footwear": "none"
+    }
+  }
+]
